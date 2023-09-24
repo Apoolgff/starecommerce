@@ -1,0 +1,81 @@
+/*Greetings*/
+.item-list-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .item-list-container h1{
+    color: #00ff00;
+    text-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00, 0 0 45px #00ff00;
+  }
+  
+  .greeting {
+    font-size: 40px;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .greeting:hover {
+    text-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00, 0 0 45px #00ff00;
+    transition: text-shadow 0.3s ease-in-out;
+  }
+
+  .face{
+    font-size: 100px;
+  }
+  
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr));
+    grid-gap: 20px;
+    padding: 10px;
+  }
+    /* Estilos para las tarjetas de producto */
+    .product-card {
+      background-color: #000000;
+      border: 2px solid #00ff00;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+      text-align: center;
+    }
+    
+    .product-card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .product-card h3 {
+      font-size: 20px;
+      color: #00ff00;
+      margin-bottom: 10px;
+    }
+    
+    .product-card p {
+      font-size: 16px;
+      color: #00ff00;
+      margin-bottom: 5px;
+    }
+    
+    .product-card button {
+      background-color: #00ff00;
+      color: #000000;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .product-card button:hover {
+      background-color: #009900;
+    }
+
+    .image{
+      width: 200px;
+      height: 200px;
+    }
+
+  

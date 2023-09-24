@@ -1,0 +1,12 @@
+/*general*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  background-image: url("https://www.witf.io/wp-content/uploads/2020/11/iStock-1159238834-1628x1080.jpg");
+}

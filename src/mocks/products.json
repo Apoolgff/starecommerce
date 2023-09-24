@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "name": "TIE Fighter",
+      "description": "Caza estelar utilizado por el Imperio Galáctico",
+      "category": "Imperio",
+      "image": "https://images.interestingengineering.com/images/import/2016/12/tie-fighter.jpg",
+      "price": 100000
+    },
+    {
+      "id": 2,
+      "name": "Imperial Star Destroyer",
+      "description": "Nave capital utilizado por el Imperio Galáctico",
+      "category": "Imperio",
+      "image": "https://i.etsystatic.com/8461382/r/il/395b99/1021787906/il_1080xN.1021787906_hyhw.jpg",
+      "price": 500000
+    },
+    {
+      "id": 3,
+      "name": "Death Star",
+      "description": "Estación espacial superarmada del Imperio Galáctico",
+      "category": "Imperio",
+      "image": "https://static.wikia.nocookie.net/starwars/images/7/70/DSI-HDapproach.png",
+      "price": 1000000000
+    },
+    {
+      "id": 4,
+      "name": "Imperial Shuttle",
+      "description": "Nave de transporte utilizado por el Imperio Galáctico",
+      "category": "Imperio",
+      "image": "https://i.pinimg.com/1200x/b2/a8/61/b2a86148a063194dbb956de60c24d5ff.jpg",
+      "price": 80000
+    },
+    {
+      "id": 5,
+      "name": "Executor-class Star Dreadnought",
+      "description": "Super destructor estelar utilizado por el Imperio Galáctico",
+      "category": "Imperio",
+      "image": "https://static.wikia.nocookie.net/starwars/images/a/a1/Executor2_BF2.png",
+      "price": 1000000000
+    },
+    {
+      "id": 6,
+      "name": "X-wing",
+      "description": "Caza estelar utilizado por la Alianza Rebelde",
+      "category": "Alianza",
+      "image": "https://c4.wallpaperflare.com/wallpaper/543/930/565/star-wars-x-wing-space-movies-black-background-wallpaper-preview.jpg",
+      "price": 150000
+    },
+    {
+      "id": 7,
+      "name": "Millennium Falcon",
+      "description": "Nave corelliana modificada, famosa por Han Solo y Chewbacca",
+      "category": "Alianza",
+      "image": "https://c4.wallpaperflare.com/wallpaper/592/970/573/star-wars-millennium-falcon-wallpaper-preview.jpg",
+      "price": 300000
+    },
+    {
+      "id": 8,
+      "name": "A-wing",
+      "description": "Caza estelar rápido utilizado por la Alianza Rebelde",
+      "category": "Alianza",
+      "image": "https://static.wikia.nocookie.net/starwars/images/1/13/RZ1-BF2.png",
+      "price": 120000
+    },
+    {
+      "id": 9,
+      "name": "B-wing",
+      "description": "Caza pesado utilizado por la Alianza Rebelde",
+      "category": "Alianza",
+      "image": "https://static.wikia.nocookie.net/starwars/images/9/9f/B-wing-Squadronds.png",
+      "price": 180000
+    },
+    {
+      "id": 10,
+      "name": "Mon Calamari Cruiser",
+      "description": "Nave capital utilizada por la Alianza Rebelde",
+      "category": "Alianza",
+      "image": "https://i.pinimg.com/736x/fd/6d/ef/fd6defbb6f20fd4e1575e6377663bf07.jpg",
+      "price": 400000
+    },
+    {
+      "id": 11,
+      "name": "ARC-170 Starfighter",
+      "description": "Caza estelar utilizado por la República Galáctica",
+      "category": "Republica",
+      "image": "https://static.wikia.nocookie.net/esstarwars/images/3/32/Starfigher.jpg",
+      "price": 170000
+    },
+    {
+      "id": 12,
+      "name": "Venator-class Star Destroyer",
+      "description": "Destructor estelar utilizado por la República Galáctica",
+      "category": "Republica",
+      "image": "https://cdna.artstation.com/p/assets/images/images/044/325/162/4k/ansel-hsiao-venator114.jpg",
+      "price": 350000
+    },
+    {
+      "id": 13,
+      "name": "Jedi Starfighter",
+      "description": "Caza utilizado por los Jedi en la República Galáctica",
+      "category": "Republica",
+      "image": "https://i.ebayimg.com/images/g/NtEAAOSwprVgkjTu/s-l1200.webp",
+      "price": 120000
+    },
+    {
+      "id": 14,
+      "name": "Droid Tri-Fighter",
+      "description": "Caza utilizado por los Separatistas",
+      "category": "Separatistas",
+      "image": "https://static.wikia.nocookie.net/swse/images/a/ad/Droid_Tri-Fighter.jpg",
+      "price": 90000
+    },
+    {
+      "id": 15,
+      "name": "Vulture Droid",
+      "description": "Caza utilizado por los Separatistas",
+      "category": "Separatistas",
+      "image": "https://static.wikia.nocookie.net/battlefront/images/c/c1/VultureDroid_Main.jpg",
+      "price": 70000
+    },
+    {
+      "id": 16,
+      "name": "Geonosian Starfighter",
+      "description": "Caza utilizado por los Separatistas",
+      "category": "Separatistas",
+      "image": "https://game-assets.swgoh.gg/tex.charui_geonosis_fighter_soldier.png",
+      "price": 85000
+    },
+    {
+      "id": 17,
+      "name": "U-wing",
+      "description": "Nave de transporte utilizado por la Alianza Rebelde",
+      "category": "Alianza",
+      "image": "https://republicbricks.com/cdn/shop/products/image_3093415d-0331-4441-8dd1-eebde22b976e.jpg",
+      "price": 160000
+    },
+    {
+      "id": 19,
+      "name": "Destroyer Lucrehulk",
+      "description": "Nave de guerra utilizada por la Federación de Comercio y separatistas",
+      "category": "Separatistas",
+      "image": "https://static.wikia.nocookie.net/starwars/images/0/0a/Lucrehulk-Battlefront-2-Render.png",
+      "price": 1200000
+    }
+  ]
+  
+  
