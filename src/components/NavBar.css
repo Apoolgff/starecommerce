@@ -13,6 +13,7 @@
 
   a{
     color: #00ff00;
+    text-decoration: none;
   }
   
   .brand {
@@ -35,6 +36,7 @@
     border-radius: 5px;
     font-family: 'Courier New', monospace;
     text-shadow: 0 0 5px #00ff00;
+    text-decoration: none;
   }
   
   .categories li:hover {

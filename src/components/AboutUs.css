@@ -1,0 +1,23 @@
+.nosotros-container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #00ff00;
+    text-align: center;
+    margin: 50px auto;
+    width: 800px
+  }
+  
+  .nosotros-container h2 {
+    font-size: 40px;
+    color: #00ff00;
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+  
+  .nosotros-container p {
+    font-size: 24px;
+    color: #00ff00;
+    margin: 10px 0;
+  }
+  

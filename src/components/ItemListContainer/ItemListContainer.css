@@ -1,0 +1,10 @@
+.item-list-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .item-list-container h1{
+    color: #00ff00;
+    text-shadow: 0 0 15px #00ff00, 0 0 30px #00ff00, 0 0 45px #00ff00;
+  }
+  

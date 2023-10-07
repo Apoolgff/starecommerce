@@ -14,21 +14,21 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="brand">
         <h1><Link to="/">Star-E-Commerce</Link></h1>
-        <p>En Construcción...</p>
+        <p>La fuerza nos acompaña</p>
       </div>
       <ul className="categories">
         <li onMouseEnter={toggleCategories} onMouseLeave={toggleCategories}>
           <span>Categorías</span>
           <ul className={`sub-categories ${showCategories ? 'active' : ''}`}>
-            <li><Link to="/">Todo</Link></li> {/* Agrega esta opción */}
+            <li><Link to="/">Todo</Link></li>
             <li><Link to="/category/Imperio">Imperio</Link></li>
             <li><Link to="/category/Alianza">Alianza</Link></li>
             <li><Link to="/category/Separatistas">Separatistas</Link></li>
             <li><Link to="/category/Republica">Republica</Link></li>
           </ul>
         </li>
-        <li>Contacto</li>
-        <li>Nosotros</li>
+        <li><Link to="/contact">Contacto</Link></li>
+        <li><Link to="/aboutus">Nosotros</Link></li>
       </ul>
 
       <CartWidget />
