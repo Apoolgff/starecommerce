@@ -20,21 +20,11 @@
 4. ¡Prepárate para tu próxima aventura en el espacio!
 
 
-## Contribución
-
-¡Apreciamos contribuciones! Si deseas mejorar **Star E-Commerce**, sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una rama para tu contribución.
-3. Realiza tus cambios y haz un commit.
-4. Envía un Pull Request.
-
 ## Licencia
 
 Este proyecto está bajo la Licencia de la confederacion intergalactica.
 
 ## Contacto
-
 
 ¡Gracias por elegir **Star E-Commerce** para tus necesidades de navegación intergaláctica!
 
