@@ -1,24 +1,32 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import { doc, getDoc } from 'firebase/firestore';
 
-const ProductFetch = ({ itemId, children }) => {
+const ProductFetch = ({ itemId, children, db }) => {
   const [product, setProduct] = useState(null);
 
-  useEffect(() => {
-    const fetchProductDetails = async () => {
-      try {
-        const response = await fetch('/src/mocks/products.json');
-        const data = await response.json();
-        const foundProduct = data.find((item) => item.id === parseInt(itemId, 10));
-        setProduct(foundProduct);
-      } catch (error) {
-        console.error('Error al cargar los detalles del producto', error);
-      }
-    };
+  const fetchProductDetails = async () => {
+    try {
+      const productDocRef = doc(db, 'products', itemId);
+      const productDocSnapshot = await getDoc(productDocRef);
 
-    fetchProductDetails();
-  }, [itemId]);
+      if (productDocSnapshot.exists()) {
+        const productData = productDocSnapshot.data();
+        setProduct({ id: itemId, ...productData });
+      }
+    } catch (error) {
+      console.error('Error al cargar los detalles del producto', error);
+    }
+  };
+
+  useEffect(() => {
+    if (itemId) {
+      fetchProductDetails();
+    }
+  }, [itemId, db]);
 
   return children(product);
 };
 
 export default ProductFetch;
+
+

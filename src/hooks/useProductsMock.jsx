@@ -1,16 +1,20 @@
 import { useEffect, useState } from 'react';
+import { collection, getDocs } from 'firebase/firestore';
 
-const useProducts = (categoryId) => {
+const useProducts = (categoryId, db) => {
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProducts = async () => {
-      setLoading(true);
-
       try {
-        const response = await fetch('/src/mocks/products.json');
-        const data = await response.json();
+        const productsCollection = collection(db, 'products');
+        const querySnapshot = await getDocs(productsCollection);
+
+        const data = querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
 
         const filteredProducts = categoryId
           ? data.filter((product) => product.category === categoryId)
@@ -25,9 +29,11 @@ const useProducts = (categoryId) => {
     };
 
     fetchProducts();
-  }, [categoryId]);
+  }, [categoryId, db]);
 
   return { products, loading };
 };
 
 export default useProducts;
+
+

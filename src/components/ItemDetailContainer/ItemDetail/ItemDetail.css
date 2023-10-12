@@ -10,6 +10,7 @@
     background-color: black;
     border: 3px solid #00ff00;
     max-width: 600px;
+    padding: 20px;
   }
   
   .product-details h2 {

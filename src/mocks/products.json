@@ -5,7 +5,7 @@
       "description": "Caza estelar utilizado por el Imperio Galáctico",
       "category": "Imperio",
       "image": "https://images.interestingengineering.com/images/import/2016/12/tie-fighter.jpg",
-      "price": 100000
+      "price": 50000
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "description": "Estación espacial superarmada del Imperio Galáctico",
       "category": "Imperio",
       "image": "https://static.wikia.nocookie.net/starwars/images/7/70/DSI-HDapproach.png",
-      "price": 1000000000
+      "price": 10000000
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@
       "description": "Super destructor estelar utilizado por el Imperio Galáctico",
       "category": "Imperio",
       "image": "https://static.wikia.nocookie.net/starwars/images/a/a1/Executor2_BF2.png",
-      "price": 1000000000
+      "price": 10000000
     },
     {
       "id": 6,
@@ -136,7 +136,7 @@
       "price": 160000
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Destroyer Lucrehulk",
       "description": "Nave de guerra utilizada por la Federación de Comercio y separatistas",
       "category": "Separatistas",

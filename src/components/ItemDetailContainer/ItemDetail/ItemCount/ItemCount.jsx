@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import "./itemCount.css";
 
-const ItemCount = () => {
+const ItemCount = ({ onQuantityChange }) => {
     const [quantity, setQuantity] = useState(1);
 
     const handleIncrease = () => {
         setQuantity(quantity + 1);
+        onQuantityChange(quantity + 1);
     };
 
     const handleDecrease = () => {
         if (quantity > 1) {
             setQuantity(quantity - 1);
+            onQuantityChange(quantity - 1);
         }
     };
 
@@ -24,3 +26,6 @@ const ItemCount = () => {
 };
 
 export default ItemCount;
+
+
+

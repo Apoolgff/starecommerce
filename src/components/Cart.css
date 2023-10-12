@@ -1,0 +1,87 @@
+
+.cart-container {
+    width: 800px; 
+    background-color: #000000;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    padding: 16px;
+    color: #00ff00;
+    margin: 20px auto;
+  }
+  
+
+  .cart-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00ff00;
+  }
+  
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px solid #00ff00;
+  }
+  
+ 
+  .remove-button {
+    background-color: #ff0000;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+  }
+  
+  .remove-button:hover {
+    background-color: #ae0000;
+  }
+  
+  
+  .cart-footer {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item-image{
+    width: 100px;
+    height: 100px;
+  }
+
+  .clean-cart{
+    border: 2px solid #ff0000;
+  }
+  .clean-cart:hover{
+    background-color: red;
+    border: 2px solid #00ff00;
+  }
+
+  .buy-button{
+    background-color: #00ff00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .buy-button:hover{
+    box-shadow: 0 0 50px #00ff00;
+  }
+  
