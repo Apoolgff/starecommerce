@@ -23,21 +23,6 @@
     color: #00ff00;
     margin-bottom: 5px;
   }
-  
-  .product-card button {
-    background-color: #00ff00;
-    color: #000000;
-    border: none;
-    border-radius: 3px;
-    padding: 8px 16px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .product-card button:hover {
-    background-color: #009900;
-  }
 
   .image{
     width: 200px;

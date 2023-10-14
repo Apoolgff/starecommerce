@@ -4,7 +4,7 @@
 
 **Star E-Commerce** es un sitio web dedicado a la venta de naves intergalácticas para todas tus aventuras espaciales. Nuestra plataforma te ofrece una selección diversa de naves de alta calidad, desde pequeñas naves de exploración hasta naves de guerra avanzadas.
 
-![Gif](https://media.giphy.com/media/IQJ7QyLmkKhsBFmGmo/giphy.gif)
+![Gif](./public/Star-e-commerce-gif.gif)
 
 ## Características
 

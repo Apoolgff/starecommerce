@@ -32,23 +32,29 @@
     border: 2px solid #00ff00;
   }
   
- 
-  .remove-button {
-    background-color: #ff0000;
-    color: #000000;
+  .remove-button{
     border: none;
-    border-radius: 5px;
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    outline: none;
+    background-color: #ff0000;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
     align-self: center;
+    color: #000000;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #c30000;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
   }
-  
-  .remove-button:hover {
-    background-color: #ae0000;
+  .remove-button:active{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #c30000;
   }
-  
+  .remove-button:hover{
+    background-color: #ff0000;
+  }
   
   .cart-footer {
     margin-top: 16px;
@@ -72,16 +78,22 @@
   }
 
   .buy-button{
-    background-color: #00ff00;
-    color: black;
     border: none;
-    border-radius: 5px;
+    outline: none;
+    background-color: #00ff00;
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #00c300;
+  }
+  .buy-button:active{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #00c300;
   }
   .buy-button:hover{
-    box-shadow: 0 0 50px #00ff00;
+    background-color: #00ff00;
   }
   

@@ -32,11 +32,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px auto;
   }
   
-  .checkout button:hover {
-    background-color: #00a400;
-  }
   
   .error-message {
     color: red;

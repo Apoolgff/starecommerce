@@ -5,7 +5,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Contact from './components/Contact';
 import AboutUs from './components/AboutUs';
-import { CartProvider } from './components/CartContext'; // Importa el CartProvider
+import { CartProvider } from './components/CartContext';
 import './App.css';
 import Cart from './components/Cart';
 import Checkout from "./components/Checkout"

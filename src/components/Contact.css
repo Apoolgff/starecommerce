@@ -36,17 +36,24 @@
     border-radius: 5px;
   }
   
-  button {
-    background-color: #00ff00;
-    color: black;
+  button{
     border: none;
-    border-radius: 5px;
+    outline: none;
+    background-color: #00ff00;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #00c300;
     cursor: pointer;
   }
-  
-  button:hover {
-    background-color: #008600;
+  button:active{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #00c300;
+  }
+  button:hover{
+    background-color: #00ff00;
   }
   

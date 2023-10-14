@@ -31,7 +31,7 @@ const Checkout = () => {
       const newOrderID = await CreateOrder(cart, firstName, lastName, phone, email);
       setOrderID(newOrderID);
       clearCart();
-      // Reiniciar los campos y mensajes de error
+      
       setFirstName('');
       setLastName('');
       setPhone('');

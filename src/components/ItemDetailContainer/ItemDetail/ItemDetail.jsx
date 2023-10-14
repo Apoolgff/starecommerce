@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../../Firebase';
@@ -11,6 +11,8 @@ const ItemDetail = () => {
   const { id } = useParams();
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
+  const [loading, setLoading] = useState(true);
+  const [productExists, setProductExists] = useState(true); 
 
   const handleQuantityChange = (newQuantity) => {
     setQuantity(newQuantity);
@@ -40,9 +42,13 @@ const ItemDetail = () => {
           setProduct(productData);
         } else {
           console.log('El producto no existe');
+          setProductExists(false);
         }
+
+        setLoading(false);
       } catch (error) {
         console.error('Error al cargar los detalles del producto', error);
+        setLoading(false);
       }
     };
 
@@ -51,7 +57,9 @@ const ItemDetail = () => {
 
   return (
     <div className="product-details">
-      {product ? (
+      {loading ? (
+        <p>Cargando detalles del producto...</p>
+      ) : productExists ? ( 
         <>
           <h2>{product.name}</h2>
           <img src={product.image} alt={product.name} className="image-detail" />
@@ -62,14 +70,13 @@ const ItemDetail = () => {
           <button onClick={handleAddToCart}>Comprar</button>
         </>
       ) : (
-        <p>Cargando detalles del producto...</p>
+        <p>El producto no existe. Por favor, verifica el ID del producto.</p>
       )}
     </div>
   );
 };
 
 export default ItemDetail;
-
 
 
 

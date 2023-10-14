@@ -27,7 +27,7 @@ const Cart = () => {
           </ul>
           <div className='cart-footer'>
             <p>Total: ${totalPrice.toFixed(2)}</p>
-            <button className='clean-cart' onClick={clearCart}>Vaciar Carrito</button>
+            <button className='buy-button' onClick={clearCart}>Vaciar Carrito</button>
             <Link to="/checkout">
               <button className='buy-button'>Terminar mi compra</button>
             </Link>
